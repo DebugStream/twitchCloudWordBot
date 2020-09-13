@@ -1,0 +1,106 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    background-color: #000;
+}
+canvas {
+    display: block;
+    overflow: hidden;
+}
+.center {
+    text-align: center;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+
+#queue {
+    right: 0;
+    border-radius: 10px;
+    margin: 1em;
+    background-image: linear-gradient(to left top, #8c1eff, #aa1bff, #c41aff, #dc1dff, #f222ff);
+    padding: .5em;
+    color: #fff;
+    width: 450px;
+    max-height: 630px;
+    height: 630px;
+    overflow-y: hidden;
+    z-index: 100;
+    position: fixed;
+    font-size: 25px;
+    font-family: 'consolas';
+    top: 0;
+}
+
+#footer {
+    right: 0;
+    border-radius: 10px;
+    margin: 1em;
+    background-image: linear-gradient(to left top, #8c1eff, #aa1bff, #c41aff, #dc1dff, #f222ff);
+    padding: .5em;
+    color: #fff;
+    width: 450px;
+    z-index: 100;
+    position: fixed;
+    font-size: 25px;
+    font-family: 'consolas';
+    bottom: 0;
+}
+
+li.current_term {
+    padding-bottom: 1em;
+    font-size: 30px;
+    list-style-type: none;
+    font-weight: bold;
+}
+li {
+    padding: 0 .3em 0 .3em;
+}
+ol {
+    padding-left: 2em;
+}
+.credits {
+    font-size: 20px;
+    text-align: center;
+}
+
+.cw {
+    border-radius: 5px;
+    padding: 0 .2em 0 .2em;
+    background-color: #ff2975;
+    font-weight: bold;
+    color: fff;
+}
+
+#countdown {
+    opacity: .75;
+    position: fixed;
+    color: chartreuse;
+    border-radius: 10px;
+    margin: 1em;
+    background-image: linear-gradient(to left top, #8c1eff, #aa1bff, #c41aff, #dc1dff, #f222ff);
+    padding: 1em;
+    bottom: 0;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'consolas';
+    left: 0;
+}
